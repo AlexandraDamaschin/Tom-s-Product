@@ -1,0 +1,25 @@
+{
+  "name": "productlistapi",
+  "version": "1.0.0",
+  "description": "RESTful ProductListAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "An Other",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "^4.16.2",
+    "mongoose":"^4.7.2"
+  }
+}
